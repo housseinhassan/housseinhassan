@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+#wrapper{
+   
+}
+
+header{
+    background-color:cadetblue;
+    max-width: inherit;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+}
+
+nav > ul > li{
+    display: inline;
+    text-decoration: none;
+    margin-left: 80px;
+    
+    
+}
+
+#logo{
+    margin-left: 40px;
+}
+
+#nav-bar{
+   margin-right: 50px;
+}
